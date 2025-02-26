@@ -51,11 +51,9 @@ function edit() {
   console.log("Product Price: " + products.price[0]);
   console.log("Product Stocks: " + products.stock[0]);
 
-  for (let iterator = 0; iterator < products.name.length; iterator++) {
-    products.name[iterator] = ["FUBU", "JORDAN", "CLARKS"];
-    products.price[iterator] = [100, 50, 25];
-    products.stock[iterator] = [100, 100, 100];
-  }
+  products.name[0] = ["FUBU", "JORDAN", "CLARKS"];
+  products.price[0] = [100, 50, 25];
+  products.stock[0] = [100, 100, 100];
   console.log("Done.. Use dislpay function to see the result");
 }
 
